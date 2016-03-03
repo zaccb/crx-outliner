@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Outliner",
+  "description": "This extension outlines all the DOM elements on a page",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "outliner-icon.png",
+    "default_title": "Add some purple outlines"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
