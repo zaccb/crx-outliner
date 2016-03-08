@@ -3,11 +3,11 @@
 
   "name": "Outliner",
   "description": "This extension outlines all the DOM elements on a page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": { 
-    "128": "icon.outliner.128.png",
+    "16": "icon.outliner.16.png",
     "48": "icon.outliner.48.png",
-    "16": "icon.outliner.16.png"
+    "128": "icon.outliner.128.png"
     },
   "browser_action": {
     "default_icon": "icon.outliner.48.png",
